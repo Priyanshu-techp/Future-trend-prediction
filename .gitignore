@@ -1,0 +1,9 @@
+git add .
+git commit -m "Future trend prediction"
+git branch -M main
+git remote add origin https://github.com/Priyanshu-techp/Future-trend-prediction.git
+git push -u origin main
+
+git add .
+git commit -m 'Model_evaluation.ipynb app.py and model.pkl'
+git push -u origin main
