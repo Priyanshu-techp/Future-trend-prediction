@@ -2,12 +2,10 @@
 # streamlit run "Model_Deploying/app.py"
 import streamlit as st
 import pandas as pd
-import pickle
 import numpy as np
+import joblib
 
-
-with open('Model_Deploying/model.pkl', 'rb') as file:
-    model = pickle.load(file)
+model = joblib.load('Model_Deploying/model.pkl')
 
 df = pd.read_csv('Data/Cleanded_data.csv')
 # UI Setup
