@@ -61,10 +61,11 @@ input_dict = {
     'DemandOfTheProduct' : [product_demand],
 }
 
-input_df = pd.DataFrame(input_dict)
-st.write(input_df)
 
 if st.button("Predict Sales Trend", type="primary"):
+    input_df = pd.DataFrame(input_dict)
+    st.write(input_df)
+    
     prediction = model.predict(input_df)
     if prediction[0] >= 400:
         st.success(f"Yes! Product is trending in future (Future sales is: {prediction[0]:,.0f} units)")
