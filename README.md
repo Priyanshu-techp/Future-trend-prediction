@@ -72,5 +72,4 @@ Predict future trend for E-Commerce/
 # Author
 - Name: Priyanshu Pandey
 - Diploma in Automation & Robotics, Govt. Polytechnic Dawahat (Almora)
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/priyanshu-pandey67)
